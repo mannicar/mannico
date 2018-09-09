@@ -1,0 +1,3 @@
+**/mannico_env
+**.pyc
+mannico/db.sqlite3
