@@ -1,6 +1,6 @@
 body {
     font-family: Verdana;
-    background-color: rgb(200,200,200);
+    background-color: rgb(60,60,60);
 }
 
 h1 {
@@ -8,16 +8,52 @@ h1 {
 }
 
 div.header_div {
-    position: fixed;
-    background-color: rgb(50,100,100);
+    position: relative;
+    background-color: rgb(50,50,50);
 
 }
 
 table.index_header_table {
     color: white;
     border-spacing: 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content_div {
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content_div h1{
+    display:block;
+    margin: auto;
+}
+
+#content_div p{
+    margin: auto;
+    display:block;
+}
+
+#content_div img {
+    margin-left: auto;
+    display:block;
+    margin-right: auto;
+    border-spacing:20px;
+}
+
+div.singlespace {
+    height:50px;
 }
 
 table.index_header_table th {
     padding:20px;
+}
+
+img.bubble {
+    height:200px;
+    width:200px;
+    border-radius:50%;
 }
