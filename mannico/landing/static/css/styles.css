@@ -1,5 +1,23 @@
-.sidebar-nav {
-    margin-top: 20px;
-    padding: 0;
-    list-style: none;
+body {
+    font-family: Verdana;
+    background-color: rgb(200,200,200);
+}
+
+h1 {
+    color: green;
+}
+
+div.header_div {
+    position: fixed;
+    background-color: rgb(50,100,100);
+
+}
+
+table.index_header_table {
+    color: white;
+    border-spacing: 15px 15px;
+}
+
+table.index_header_table th {
+    padding:20px;
 }

@@ -10,7 +10,17 @@
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-  <p>That's it for now, folks!</p>
-  <div id='text'>{% block content %}{% endblock %}</div>
+  <!--<div id="header_div">{% block header_div %}{% endblock %}</div>-->
+  <div class="header_div" >
+    <table class="index_header_table">
+    <tr>
+      <th> HOME </th>
+      <th> BLOG </th>
+      <th> MANNICODE </th>
+      <th> CONTACT </th>
+    </tr>
+    </table>
+  </div>
+  <div id="content_div">{% block content_div %}{% endblock %}</div>
 </body>
 </html>
