@@ -4,4 +4,5 @@
 4. INITIALIZE VIRTUALENV IN PROJECT FOLDER 
 5. PIP INSTALL DJANGO
 6. CD INTO PROJECT DIRECTORY
-7. django-admin startproject mannico  
+7. django-admin startproject mannico 
+8. runservewr 
