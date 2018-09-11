@@ -6,4 +6,3 @@
 6. CD INTO PROJECT DIRECTORY
 7. django-admin startproject mannico 
 8. cd /mannico/mannico; python3 manage.py runserver 
-
