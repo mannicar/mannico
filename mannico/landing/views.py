@@ -7,3 +7,6 @@ def index(request):
         'context_test_variable' : 'None, yet!'
     }
     return render(request, "index.html", context=context)
+
+def blog_placeholder(request):
+    return render(request, "blog_placeholder.html", context={})
