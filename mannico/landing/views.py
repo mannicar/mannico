@@ -10,3 +10,9 @@ def index(request):
 
 def blog_placeholder(request):
     return render(request, "blog_placeholder.html", context={})
+
+def mannicode(request):
+    return render(request, "mannicode.html", context={})
+
+def contact(request):
+    return render(request, "contact.html", context={})
