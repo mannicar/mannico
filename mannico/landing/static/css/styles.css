@@ -20,6 +20,15 @@ table.index_header_table {
     margin-right: auto;
 }
 
+table.index_header_table a {
+    color:rgb(255,255,255);
+    text-decoration:none;
+}
+
+table.index_header_table th:hover{
+    background-color: rgb(60,60,60);
+}
+
 #content_div {
     display:block;
     position: relative;
@@ -45,7 +54,7 @@ table.index_header_table {
 }
 
 div.singlespace {
-    height:50px;
+    height:100px;
 }
 
 table.index_header_table th {
@@ -57,3 +66,14 @@ img.bubble {
     width:500px;
     border-radius:50%;
 }
+
+table.pamphlet td{
+    padding:20px;
+    width: 400px;
+    color: rgb(200,200,200);
+}
+table.pamphlet{
+    margin-left:auto;
+    margin-right:auto;
+}
+
