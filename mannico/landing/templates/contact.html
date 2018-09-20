@@ -3,5 +3,29 @@
 {% load static %}
 {% block content_div %}
 <div class="singlespace"></div>
-<p> CONTACT COMING SOON!  STAY TUNED. </p>
+<div class="contact_grid">
+
+    <!--<table class="contact contact_grid">-->
+       <table class="pamphlet">
+           <tr>
+            <td>
+                <!--<img src="{% static 'images/mail_contact.png' %}"
+                     alt="EMAIL" />-->
+                <span class="contact contact-mail">EMAIL</span>
+            </td>
+            <td>
+                <!--<img src="{% static 'images/phone_contact.png' %}"
+                     alt="PHONE" />-->
+                <span class="contact contact-phone">PHONE</span>
+            </td>
+            <td>
+                <!--<img src="{% static 'images/linkedin_contact.png' %}"
+                     alt="LINKEDIN"/>-->
+                <span class="contact contact-linkedin">LINKEDIN</span>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<!--<p> CONTACT COMING SOON!  STAY TUNED. </p>-->
 {% endblock %}

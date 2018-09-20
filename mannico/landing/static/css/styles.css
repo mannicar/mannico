@@ -72,8 +72,45 @@ table.pamphlet td{
     width: 400px;
     color: rgb(200,200,200);
 }
+
 table.pamphlet{
     margin-left:auto;
     margin-right:auto;
 }
 
+.contact{
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+table.contact tbody{
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+table.contact tbody tr {
+display:block;
+margin-right:auto;
+margin-left:auto;}
+
+span.contact{
+vertical-align:middle;
+    text-align:center;
+    font-size:24px;
+    height:50px;
+    width:250px;
+}
+
+span.contact-mail{
+    background-color: rgb(140,187,60);
+}
+
+span.contact-phone{
+    background-color: rgb(235,171,29);
+}
+
+span.contact-linkedin{
+    background-color:rgb(73,133,137);
+}
