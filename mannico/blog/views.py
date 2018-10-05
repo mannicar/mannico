@@ -5,7 +5,10 @@ from django.shortcuts import render
 from blog.models import Article
 
 def blog(request):
-    articles = Article.objects.all()
+    articles_db = Article.objects.all()
+    articles=[]
+    for a in articles_db:
+        articles.append({'title':a.title, 'body':a.body, 'author':a.author})
     context = {
         "articles": articles
     }

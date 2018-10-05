@@ -124,8 +124,13 @@ span.contact-phone:hover p:after{
     content: '+12106394752'
 }
 
-
-
 span.contact-linkedin{
     background-color:rgb(73,133,137);
+}
+
+div.article {
+    margin:auto;
+    display:block;
+    width:500px;
+    background-color:rgb(200,200,200);
 }
