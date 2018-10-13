@@ -8,9 +8,6 @@ def index(request):
     }
     return render(request, "index.html", context=context)
 
-def blog_placeholder(request):
-    return render(request, "blog_placeholder.html", context={})
-
 def mannicode(request):
     return render(request, "mannicode.html", context={})
 

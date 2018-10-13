@@ -8,7 +8,7 @@ def blog(request):
     articles_db = Article.objects.all()
     articles=[]
     for a in articles_db:
-        articles.append({'title':a.title, 'body':a.body, 'author':a.author})
+        articles.append({'title':a.title, 'body':a.body, 'author':a.author, 'pub_date':a.pub_date})
     context = {
         "articles": articles
     }

@@ -133,4 +133,9 @@ div.article {
     display:block;
     width:500px;
     background-color:rgb(200,200,200);
+    border-radius:20px;
+}
+
+div.article.inner {
+    padding:10px;
 }

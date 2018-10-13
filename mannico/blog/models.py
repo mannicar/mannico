@@ -6,7 +6,6 @@ from datetime import datetime
 class Article(models.Model):
     title       = models.CharField(max_length=100, help_text="Article Title")
     author      = models.CharField(max_length=50, help_text="Article Author")
-    #pub_date    = models.DateTimeField(default=django.utils.timezone.now)
     pub_date    = models.DateTimeField(default=datetime.utcnow())
     body        = models.TextField()
 

@@ -5,8 +5,11 @@
     {% for a in articles %}
         <div class="singlespace"></div>
         <div class="blog article">
-            <h1>{{a.title}}</h1>
-            <p>{{a.body}}</p>
+            <div class="blog article inner">
+                <h1>{{a.title}}</h1>
+                <h3>{{a.pub_date}}</h3>
+                <p>{{a.body}}</p>
+            </div>
         </div>
     {% endfor %}
 {% endblock %}
